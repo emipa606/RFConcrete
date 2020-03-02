@@ -6,7 +6,8 @@
 		<li>1.0</li>
 		<li>1.1</li>
 	</supportedVersions>
-	<author>Mlie</author>	
+	<author>Mlie</author>
+	<url>https://github.com/emipa606/RFConcrete</url>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>

@@ -1,0 +1,132 @@
+---------------------------------------------------------------------------------
+  Changelog for "Rainbeau's Concrete"
+---------------------------------------------------------------------------------
+- 03/02/2020
+	- Updated for RimWorld 1.1
+
+- 12/05/2018
+	- Rewrote XML patches to improve load efficiency slightly.
+
+- 12/02/2018
+	- Sand piles no longer deteriorate if outside.
+	
+- 11/04/2018
+	- ... And now, pawns will actually *use* the rock mill. (I'd forgotten to add
+	  the relevant WorkGiver to the mod yesterday.)
+	- Rock mills are now minifiable and movable, and benefit from tool cabinets.
+	
+- 11/03/2018
+	- Added the rock mill (and relevant recipes) from "Fertile Fields" to this
+	  mod. This will allow more efficient creation of crushed rocks and sand.
+	- It's now possible to create concrete and concrete blocks at a rock mill,
+	  faster and more efficiently than at a stonecutting table.
+	- Added patches so that glass from "Glass+Lights" and "Dub's Skylights"
+	  is actually made from sand.
+	- Fixed the concrete and cement graphics so they have black borders like
+	  all other items.
+
+- 10/29/2018
+	- Embrasures now have slightly higher resource costs than do normal walls.
+	- The market value of concrete "cinder" blocks has been cut roughly in half,
+	  to the value of regular stone blocks.
+	- The market value of concrete has been cut to 2.5, a third of its previous
+	  value.
+	  
+- 10/24/2018
+	- Fixed a minor problem with drops from deconstructed deep bridges, which had
+	  snuck into the mod in the upgrade from b19 to 1.0.
+	- Clarified in the descriptions of embrasures that they act essentially as
+	  permanently-open vents, equalizing temperatures on both sides of a wall.
+	  
+- 10/14/2018
+	- Updated to RimWorld 1.0 release!
+	- Updated some of the mod's graphics (primarily to utilize StackCounts).
+
+- 10/09/2018
+	- Updated to RimWorld b19 release.
+	- It's now possible to build doors, vents, etc., directly on the mod's walls,
+	  just as on vanilla walls.
+	- Added a single-step "stone chunks + cement = concrete" recipe.
+	- Updated the version of the Harmony library the mod uses.
+	- Removed "Mod Sync Ninja" files.
+
+- 01/20/2018
+	- Made a few changes (to recipe work times, resource values, and crushed
+	  rock stack size) to match recent changes in "Fertile Fields."
+	- Cut the work times for mod-specific recipes in half, to balance with the
+	  other recipe work time changes.
+
+- 12/04/2017
+	- The mod now works with the "Mod Sync Ninja" updater.
+
+- 11/24/2017
+	- This mod can now be used independently of "Fertile Fields," though I still
+	  suggest that they be used together, as without "Fertile Fields," options
+	  for obtaining crushed rocks and sand are a bit limited.
+
+- 11/19/2017
+	- Updated to RimWorld b18 release.
+
+- 9/24/2017
+	- Reinforced concrete has been renamed "steel-reinforced concrete," and
+	  plasticrete is now "plasteel-reinforced concrete."
+	- Steel-reinforced walls now require "Machining" to have been researched.
+	  (I realize there's no direct correlation between machining and bunker wall
+	  construction, but I didn't want to add a brand-new tech just for this, and
+	  machining seems to represent about the right technological competence and
+	  conceptual research focus, and it's something that nobody starts the game
+	  with.) Plasteel-reinforced walls additionally require "Microelectronics
+	  Basics" research.
+
+- 08/06/2017
+	- Plasticrete doors now have the durability they should have had already.
+
+- 08/05/2017
+	- Costs for concrete and concrete walls, and strengths of concrete walls,
+	  have been rebalanced to bring them more into line with vanilla materials.
+	  Cinder block walls are now much cheaper to build, and are actually a viable
+	  option for quick wall production. Poured concrete walls are now comparable
+	  in strength to granite walls, but easier to build in bulk. And reinforced
+	  concrete walls are no longer absurdly overpowered, but rather are just shy
+	  of plasteel walls in strength. Thanks to Ludeon forum user KitsuneKas for
+	  doing all the math and suggesting how things ought to be adjusted.
+	- To appease those who liked the absurdly overpowered walls, one final wall
+	  option has been added. Reinforced plasticrete walls are massive defensive
+	  fortifications constructed from layers of concrete, steel, plasteel and,
+	  according to some, the blood of sacrificial virgins.
+	- Deep water bridges from "Basic Bridges" now correctly leave crushed rocks
+	  instead of bags of concrete when deconstructed or destroyed.
+
+- 07/23/2017
+	- Reinforced concrete autodoors now open just slightly slower than stone
+	  block autodoors, instead of opening just as fast as plasteel autodoors.
+
+- 07/23/2017
+	- Added reinforced concrete doors to match the reinforced concrete walls.
+	- Concrete walls, doors and floors return crushed rocks when deconstructed.
+	- Added embrasures that can be built from vanilla wall materials and from
+	  clay bricks.
+	- Moved embrasures from the Structure tab of the Architect menu to the	
+	  Security tab.
+
+- 06/18/2017
+	- Cement and concrete are somewhat more likely to be found on bulk traders,
+	  as per changes in "Fertile Fields."
+	- Limestone blocks, as well as limestone chunks, can now be used in the 
+	  creation of cement.
+	- Cement recipes default to allowing only limestone, but can be adjusted to
+	  accept other stone types, as well.
+
+- 06/14/2017
+	- Added cement, which is made in a smithy from limestone chunks.
+	- Making concrete no longer requires steel, but instead requires cement.
+	- Concrete is now made at a stonecutting table instead of at a rock mill. I
+	  wanted to make sure that concrete production didn't require electricity,
+	  since historically it's been used since ancient times.
+	- Cinder block walls are now weaker than granite walls, and aren't pretty.
+	  But they can be built quickly.
+	- Reinforced concrete walls are now much stronger than they were originally.
+	- A new wall type, "poured concrete wall," splits the difference.
+
+- 06/12/2017
+	- Initial release.

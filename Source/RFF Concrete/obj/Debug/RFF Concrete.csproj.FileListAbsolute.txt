@@ -1,7 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Concrete\Source\RFF Concrete\obj\Debug\RFF Concrete.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Concrete\Assemblies\RFF Concrete.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Concrete\Source\RFF Concrete\obj\Debug\RFF Concrete.dll
-E:\Steam\steamapps\common\RimWorld\Mods\RFConcrete\1.1\Assemblies\RFF Concrete.dll
-E:\Steam\steamapps\common\RimWorld\Mods\RFConcrete\Source\RFF Concrete\obj\Debug\RFF Concrete.csprojAssemblyReference.cache
-E:\Steam\steamapps\common\RimWorld\Mods\RFConcrete\Source\RFF Concrete\obj\Debug\RFF Concrete.csproj.CoreCompileInputs.cache
-E:\Steam\steamapps\common\RimWorld\Mods\RFConcrete\Source\RFF Concrete\obj\Debug\RFF Concrete.dll

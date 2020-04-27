@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[RF] Concrete (Continued)</name>
-	<packageId>Mlie.Concrete</packageId>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/RFConcrete</url>
-	<modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-            <displayName>Harmony</displayName>
-            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>erdelf.HumanoidAlienRaces</li>
-	</loadAfter>
-	<description>Update of Rainbeau Flambes mod for RimWorld 1.1 and Harmony 2.0
+  <name>[RF] Concrete (Continued)</name>
+  <packageId>Mlie.Concrete</packageId>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/RFConcrete</url>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description>Update of Rainbeau Flambes mod for RimWorld 1.1 and Harmony 2.0
 https://steamcommunity.com/sharedfiles/filedetails/?id=1539310322
+
+[img]https://i.imgur.com/GYswkZ7.png[/img]
 
 Support-chat:
 https://discord.gg/SuhwVpM	
@@ -69,5 +71,4 @@ If you're a modpack maker and want to include this mod in your pack, or if you'r
 If you have any (helpful) suggestions for improvement, please let me know!
 
 	</description>
-
 </ModMetaData>

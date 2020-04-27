@@ -1,5 +1,6 @@
 ﻿using HarmonyLib;
 using RimWorld;
+using RimWorld.Planet;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using Verse;
 
 namespace RFFConcrete_Code {
 
-	[StaticConstructorOnStartup]
+    [StaticConstructorOnStartup]
 	internal static class RFFConcrete_Initializer {
 		static RFFConcrete_Initializer() {
 			var harmony = new Harmony("net.rainbeau.rimworld.mod.rffconcrete");
@@ -20,8 +21,10 @@ namespace RFFConcrete_Code {
 	[HarmonyPatch(typeof(GenLeaving), "DoLeavingsFor", new Type[] { typeof(TerrainDef), typeof(IntVec3), typeof(Map) })]
 	public static class GenLeaving_DoLeavingsFor_Floors {
 		public static bool Prefix(TerrainDef terrain, IntVec3 cell, Map map) {
-			if (terrain == TerrainDef.Named("Concrete") || terrain == TerrainDef.Named("PavedTile")) {
-				Thing leaving = ThingMaker.MakeThing(ThingDef.Named("CrushedRocks"), null);
+            if (terrain == TerrainDef.Named("Concrete")) return false;
+			if (terrain == TerrainDef.Named("PavedTile"))
+            { 
+                Thing leaving = ThingMaker.MakeThing(ThingDef.Named("CrushedRocks"), null);
 				GenPlace.TryPlaceThing(leaving, cell, map, ThingPlaceMode.Near, null);
 				return false;
 			}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="N7_Sand"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef/ingredients/li/filter/thingDefs[li = "SandPile"]</xpath>
+          <value>
+            <li>N7_Sand</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef/fixedIngredientFilter/thingDefs[li = "SandPile"]</xpath>
+          <value>
+            <li>N7_Sand</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

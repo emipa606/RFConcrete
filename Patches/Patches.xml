@@ -200,10 +200,41 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationRemove">
-        <xpath>Defs/RecipeDef[defName = "SmeltGlass"]/fixedIngredientFilter</xpath>
+        <xpath>Defs/RecipeDef[defName = "SmeltGlass4x"]/ingredients</xpath>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>Defs/RecipeDef[defName = "SmeltGlass"]</xpath>
+        <xpath>Defs/RecipeDef[defName = "SmeltGlass4x"]</xpath>
+        <value>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>SandPile</li>
+                </thingDefs>
+              </filter>
+              <count>4</count>
+            </li>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>Steel</li>
+                </thingDefs>
+              </filter>
+              <count>8</count>
+            </li>
+          </ingredients>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName = "SmeltGlass" or defName="SmeltGlass4x"]/fixedIngredientFilter</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName = "SmeltGlass" or defName="SmeltGlass4x"]</xpath>
         <value>
           <fixedIngredientFilter>
             <thingDefs>

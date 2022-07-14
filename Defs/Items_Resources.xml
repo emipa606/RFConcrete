@@ -114,7 +114,7 @@
     <label>Crushed rocks</label>
     <description>Stone chunks that have been broken up into smaller pieces.</description>
     <graphicData>
-      <texPath>CrushedRocks</texPath>
+      <texPath>RFCrushedRocks</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <stackLimit>25</stackLimit>

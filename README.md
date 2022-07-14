@@ -10,6 +10,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1539310322
 - Fixed cost for brick-embrasure, was set to 0 for some reason
 - Added russian translation, thank you Awiss
 - Added support for using sand from https://steamcommunity.com/sharedfiles/filedetails/?id=1833163132]Ceramics
+- User amphorosxlii also created a patch:  https://steamcommunity.com/sharedfiles/filedetails/?id=2709527831] RF Concrete X VFE Architect Compatibility
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -68,6 +69,7 @@ If you have any (helpful) suggestions for improvement, please let me know!
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

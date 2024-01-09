@@ -1,5 +1,8 @@
 # Changelog for RFConcrete
 
+1.4.2 - Walls and doors should now be paintable and also inherit the base defs better
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

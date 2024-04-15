@@ -1,28 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef Name="RFC_BuildingBase" Abstract="True" ParentName="BuildingBase">
+  <ThingDef Name="RFC_BenchBase" ParentName="BenchBase" Abstract="True">
     <drawerType>MapMeshAndRealTime</drawerType>
-  </ThingDef>
-  <ThingDef Name="RFC_BenchBase" ParentName="RFC_BuildingBase" Abstract="True">
-    <canOverlapZones>false</canOverlapZones>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <thingCategories>
-      <li>BuildingsProduction</li>
-    </thingCategories>
-    <statBases>
-      <Mass>20</Mass>
-    </statBases>
-    <building />
-    <interactionCellIcon>DiningChair</interactionCellIcon>
-    <comps>
-      <li>
-        <compClass>CompReportWorkSpeed</compClass>
-      </li>
-    </comps>
-    <placeWorkers>
-      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
-    </placeWorkers>
   </ThingDef>
   <ThingDef ParentName="RFC_BenchBase">
     <defName>RockMill</defName>
@@ -90,12 +69,7 @@
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
   </ThingDef>
-  <ThingDef ParentName="RFC_BuildingBase" Name="RFC_DoorBase" Abstract="True">
-    <thingClass>Building_Door</thingClass>
-    <category>Building</category>
-    <altitudeLayer>DoorMoveable</altitudeLayer>
-    <fillPercent>1</fillPercent>
-    <useHitPoints>true</useHitPoints>
+  <ThingDef ParentName="DoorBase" Name="RFC_DoorBase" Abstract="True">
     <statBases>
       <MaxHitPoints>680</MaxHitPoints>
       <Flammability>0.0</Flammability>
@@ -106,36 +80,6 @@
         <enabled>false</enabled>
       </damageData>
     </graphicData>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <selectable>true</selectable>
-    <tickerType>Normal</tickerType>
-    <rotatable>false</rotatable>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <designationCategory>Structure</designationCategory>
-    <holdsRoof>true</holdsRoof>
-    <staticSunShadowHeight>1.0</staticSunShadowHeight>
-    <blockLight>true</blockLight>
-    <drawerType>RealtimeOnly</drawerType>
-    <building>
-      <isInert>true</isInert>
-      <canPlaceOverWall>true</canPlaceOverWall>
-      <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
-      <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
-      <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
-      <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
-      <blueprintClass>Blueprint_Door</blueprintClass>
-      <blueprintGraphicData>
-        <texPath>Things/Building/Door/Door_Blueprint</texPath>
-      </blueprintGraphicData>
-      <ai_chillDestination>false</ai_chillDestination>
-    </building>
-    <comps>
-      <li Class="CompProperties_Forbiddable" />
-    </comps>
-    <placeWorkers>
-      <li>PlaceWorker_DoorLearnOpeningSpeed</li>
-    </placeWorkers>
   </ThingDef>
   <ThingDef ParentName="RFC_DoorBase">
     <defName>RFFConcreteDoor</defName>
@@ -245,77 +189,15 @@
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
   </ThingDef>
-  <ThingDef ParentName="RFC_BuildingBase" Name="RFC_WallBase" Abstract="True">
+  <ThingDef ParentName="Wall" Name="RFC_WallBase" Abstract="True">
     <saveCompressible>false</saveCompressible>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <linkType>CornerFiller</linkType>
-      <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
-      </linkFlags>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-        <edgeTop>Damage/Edge</edgeTop>
-        <edgeBot>Damage/Edge</edgeBot>
-        <edgeLeft>Damage/Edge</edgeLeft>
-        <edgeRight>Damage/Edge</edgeRight>
-      </damageData>
     </graphicData>
     <statBases>
       <Flammability>0.0</Flammability>
-      <MeditationFocusStrength>0.22</MeditationFocusStrength>
     </statBases>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>1</fillPercent>
-    <coversFloor>true</coversFloor>
-    <placingDraggableDimensions>1</placingDraggableDimensions>
-    <tickerType>Never</tickerType>
-    <rotatable>false</rotatable>
-    <neverMultiSelect>true</neverMultiSelect>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <holdsRoof>true</holdsRoof>
-    <designationCategory>Structure</designationCategory>
-    <staticSunShadowHeight>1.0</staticSunShadowHeight>
-    <blockLight>true</blockLight>
-    <canOverlapZones>false</canOverlapZones>
-    <fertility>0</fertility>
-    <building>
-      <paintable>true</paintable>
-      <isInert>true</isInert>
-      <isPlaceOverableWall>true</isPlaceOverableWall>
-      <ai_chillDestination>false</ai_chillDestination>
-      <blueprintGraphicData>
-        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-      </blueprintGraphicData>
-    </building>
-    <comps>
-      <li Class="CompProperties_MeditationFocus">
-        <statDef>MeditationFocusStrength</statDef>
-        <focusTypes>
-          <li>Minimal</li>
-        </focusTypes>
-      </li>
-    </comps>
-    <damageMultipliers>
-      <li>
-        <damageDef>Bomb</damageDef>
-        <multiplier>2</multiplier>
-      </li>
-      <li>
-        <damageDef>Thump</damageDef>
-        <multiplier>2</multiplier>
-      </li>
-    </damageMultipliers>
-    <designationHotKey>
-    </designationHotKey>
     <tradeability>None</tradeability>
   </ThingDef>
   <ThingDef ParentName="RFC_WallBase" Name="RFC_ConcreteWall">
@@ -379,6 +261,7 @@
   <ThingDef ParentName="RFC_WallBase" Name="RFC_EmbrasureBase" Abstract="True">
     <fillPercent>0.7</fillPercent>
     <designationCategory>Security</designationCategory>
+    <disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
   </ThingDef>
   <ThingDef ParentName="RFC_EmbrasureBase" Name="RFC_BasicEmbrasure">
     <defName>Embrasure</defName>

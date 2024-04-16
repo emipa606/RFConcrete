@@ -1,5 +1,8 @@
 # Changelog for RFConcrete
 
+1.5.2 - Fixed inheritence of stufftypes
+
+
 1.5.1 - Fixed emabrasure config-error. All buildings now inherit better, should make the mod more resistant to game-changes like wall-lights
 
 

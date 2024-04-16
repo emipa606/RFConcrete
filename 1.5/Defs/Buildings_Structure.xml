@@ -74,6 +74,8 @@
       <MaxHitPoints>680</MaxHitPoints>
       <Flammability>0.0</Flammability>
     </statBases>
+    <stuffCategories Inherit="False" />
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
@@ -194,6 +196,8 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <stuffCategories Inherit="False" />
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
     <statBases>
       <Flammability>0.0</Flammability>
     </statBases>

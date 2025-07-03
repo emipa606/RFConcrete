@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Crushed rocks -->
+  <CrushedRocks.label>Crushed rocks</CrushedRocks.label>
+  <!-- EN: Stone chunks that have been broken up into smaller pieces. -->
+  <CrushedRocks.description>Stone chunks that have been broken up into smaller pieces.</CrushedRocks.description>
+  <!-- EN: concrete "cinder" blocks -->
+  <RFFBlocksConcrete.label>concrete "cinder" blocks</RFFBlocksConcrete.label>
+  <!-- EN: Blocks of concrete, of the sort often known as "cinder blocks." They can be used to build anything that can be constructed from stone blocks. Cinder block walls are weaker than granite walls, but can be built more quickly. -->
+  <RFFBlocksConcrete.description>Blocks of concrete, of the sort often known as "cinder blocks." They can be used to build anything that can be constructed from stone blocks. Cinder block walls are weaker than granite walls, but can be built more quickly.</RFFBlocksConcrete.description>
+  <!-- EN: cinder block -->
+  <RFFBlocksConcrete.stuffProps.stuffAdjective>cinder block</RFFBlocksConcrete.stuffProps.stuffAdjective>
+  <!-- EN: Cement -->
+  <RFFCement.label>Cement</RFFCement.label>
+  <!-- EN: Cement is a binder, a substance used in construction that sets, hardens and adheres to other materials, binding them together. -->
+  <RFFCement.description>Cement is a binder, a substance used in construction that sets, hardens and adheres to other materials, binding them together.</RFFCement.description>
+  <!-- EN: Concrete -->
+  <RFFConcrete.label>Concrete</RFFConcrete.label>
+  <!-- EN: A versatile construction material. It can be used directly, as to pour concrete flooring, or made into "cinder" blocks for walls. -->
+  <RFFConcrete.description>A versatile construction material. It can be used directly, as to pour concrete flooring, or made into "cinder" blocks for walls.</RFFConcrete.description>
+  <!-- EN: Pile of sand -->
+  <SandPile.label>Pile of sand</SandPile.label>
+  <!-- EN: Sand, possibly dug up from a desert or a beach. -->
+  <SandPile.description>Sand, possibly dug up from a desert or a beach.</SandPile.description>
+</LanguageData>

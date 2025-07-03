@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 4066710156
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ad209d27ce4c7dd7f439e0348ed3b288
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ad209d27ce4c7dd7f439e0348ed3b288
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.Concrete/Textures/RFFWalls/Embrasure/Embrasure_Atlas_Planks.png
+- Assets/Data/Mlie.Concrete/Textures/RockMill/TableRockMill_north.png
+- Assets/Data/Mlie.Concrete/Textures/RFFConcrete/RFFConcrete_b.png
+- Assets/Data/Mlie.Concrete/Textures/RFFWalls/Wall_Atlas_Concrete.png
+- Assets/Data/Mlie.Concrete/Textures/PlasticreteWall.png
+- Assets/Data/Mlie.Concrete/Textures/RC_Autodoor_Icon.png
+- Assets/Data/Mlie.Concrete/Textures/SandPile/SandPile_c.png
+- Assets/Data/Mlie.Concrete/Textures/SandPile/SandPile_b.png
+- Assets/Data/Mlie.Concrete/Textures/BrickEmbrasure.png
+- Assets/Data/Mlie.Concrete/Textures/PC_Door_Icon.png
+- Assets/Data/Mlie.Concrete/Textures/RFFConcrete/RFFConcrete_c.png
+- Assets/Data/Mlie.Concrete/Textures/RC_Door_Mover.png
+- Assets/Data/Mlie.Concrete/Textures/RockMill/TableRockMill_east.png
+- Assets/Data/Mlie.Concrete/Textures/RFFCement/RFFCement_c.png
+- Assets/Data/Mlie.Concrete/Textures/PC_Autodoor_Icon.png
+- Assets/Data/Mlie.Concrete/Textures/RockMill/TableRockMill_south.png
+- Assets/Data/Mlie.Concrete/Textures/RFFCement/RFFCement_b.png
+- Assets/Data/Mlie.Concrete/Textures/RFFWalls/Wall_Atlas_Plasticrete.png
+- Assets/Data/Mlie.Concrete/Textures/ConcreteEmbrasure.png
+- Assets/Data/Mlie.Concrete/Textures/RC_Door_Icon.png
+- Assets/Data/Mlie.Concrete/Textures/RFFWalls/Embrasure/Embrasure_Atlas_Smooth.png
+- Assets/Data/Mlie.Concrete/Textures/RFCrushedRocks/RFCrushedRocks_a.png
+- Assets/Data/Mlie.Concrete/Textures/Embrasure.png
+- Assets/Data/Mlie.Concrete/Textures/RC_Autodoor_Mover.png
+- Assets/Data/Mlie.Concrete/Textures/RFFConcrete/RFFConcrete_a.png
+- Assets/Data/Mlie.Concrete/Textures/PC_Door_Mover.png
+- Assets/Data/Mlie.Concrete/Textures/ConcreteWall.png
+- Assets/Data/Mlie.Concrete/Textures/RFFWalls/Wall_Atlas_Brick_Embrasure.png
+- Assets/Data/Mlie.Concrete/Textures/PC_Autodoor_Mover.png
+- Assets/Data/Mlie.Concrete/Textures/RFFCement/RFFCement_a.png
+- Assets/Data/Mlie.Concrete/Textures/RFFWalls/Embrasure/Embrasure_Atlas_Bricks.png
+- Assets/Data/Mlie.Concrete/Textures/RFCrushedRocks/RFCrushedRocks_b.png
+- Assets/Data/Mlie.Concrete/Textures/RFFWalls/Wall_Atlas_Embrasure.png
+- Assets/Data/Mlie.Concrete/Textures/SandPile/SandPile_a.png
+- Assets/Data/Mlie.Concrete/Textures/PlasticreteEmbrasure.png
+- Assets/Data/Mlie.Concrete/Textures/RFFWalls/Wall_Atlas_Embrasure_Plasticrete.png
+Dependencies: []

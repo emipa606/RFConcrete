@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brick embrasure -->
+  <BrickEmbrasure.label>brick embrasure</BrickEmbrasure.label>
+  <!-- EN: A brick wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.) -->
+  <BrickEmbrasure.description>A brick wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</BrickEmbrasure.description>
+  <!-- EN: embrasure -->
+  <Embrasure.label>embrasure</Embrasure.label>
+  <!-- EN: An impassable wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.) -->
+  <Embrasure.description>An impassable wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</Embrasure.description>
+  <!-- EN: steel-reinforced concrete autodoor -->
+  <RFFConcreteAutodoor.label>steel-reinforced concrete autodoor</RFFConcreteAutodoor.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
+  <RFFConcreteAutodoor.description>Divides rooms. Powered operation allows people to move through the door without slowing down.</RFFConcreteAutodoor.description>
+  <!-- EN: steel-reinforced concrete door -->
+  <RFFConcreteDoor.label>steel-reinforced concrete door</RFFConcreteDoor.label>
+  <!-- EN: Divides rooms. Must be manually opened and closed, which slows people down. -->
+  <RFFConcreteDoor.description>Divides rooms. Must be manually opened and closed, which slows people down.</RFFConcreteDoor.description>
+  <!-- EN: steel-reinforced concrete embrasure -->
+  <RFFConcreteEmbrasure.label>steel-reinforced concrete embrasure</RFFConcreteEmbrasure.label>
+  <!-- EN: A bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.) -->
+  <RFFConcreteEmbrasure.description>A bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</RFFConcreteEmbrasure.description>
+  <!-- EN: poured concrete wall -->
+  <RFFConcreteWall.label>poured concrete wall</RFFConcreteWall.label>
+  <!-- EN: A concrete wall, stronger than standard stone walls. -->
+  <RFFConcreteWall.description>A concrete wall, stronger than standard stone walls.</RFFConcreteWall.description>
+  <!-- EN: plasteel-reinforced concrete autodoor -->
+  <RFFPlasticreteAutodoor.label>plasteel-reinforced concrete autodoor</RFFPlasticreteAutodoor.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
+  <RFFPlasticreteAutodoor.description>Divides rooms. Powered operation allows people to move through the door without slowing down.</RFFPlasticreteAutodoor.description>
+  <!-- EN: plasteel-reinforced concrete door -->
+  <RFFPlasticreteDoor.label>plasteel-reinforced concrete door</RFFPlasticreteDoor.label>
+  <!-- EN: Divides rooms. Must be manually opened and closed, which slows people down. -->
+  <RFFPlasticreteDoor.description>Divides rooms. Must be manually opened and closed, which slows people down.</RFFPlasticreteDoor.description>
+  <!-- EN: plasteel-reinforced concrete embrasure -->
+  <RFFPlasticreteEmbrasure.label>plasteel-reinforced concrete embrasure</RFFPlasticreteEmbrasure.label>
+  <!-- EN: A plasteel-reinforced concrete bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.) -->
+  <RFFPlasticreteEmbrasure.description>A plasteel-reinforced concrete bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</RFFPlasticreteEmbrasure.description>
+  <!-- EN: plasteel-reinforced concrete wall -->
+  <RFFPlasticreteWall.label>plasteel-reinforced concrete wall</RFFPlasticreteWall.label>
+  <!-- EN: The ultimate in defensive fortifications, this massive reinforced wall is constructed from layers of concrete, steel and plasteel. -->
+  <RFFPlasticreteWall.description>The ultimate in defensive fortifications, this massive reinforced wall is constructed from layers of concrete, steel and plasteel.</RFFPlasticreteWall.description>
+  <!-- EN: steel-reinforced concrete wall -->
+  <RFFReinforcedConcreteWall.label>steel-reinforced concrete wall</RFFReinforcedConcreteWall.label>
+  <!-- EN: A reinforced concrete wall. Much stronger than standard concrete or stone walls, it's well suited to use in bunkers and other high-security fortified locations. -->
+  <RFFReinforcedConcreteWall.description>A reinforced concrete wall. Much stronger than standard concrete or stone walls, it's well suited to use in bunkers and other high-security fortified locations.</RFFReinforcedConcreteWall.description>
+  <!-- EN: rock mill -->
+  <RockMill.label>rock mill</RockMill.label>
+  <!-- EN: An electrically-powered mill for crushing and mixing rocks, sand and dirt. -->
+  <RockMill.description>An electrically-powered mill for crushing and mixing rocks, sand and dirt.</RockMill.description>
+</LanguageData>

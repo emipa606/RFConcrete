@@ -4,7 +4,7 @@ using Verse;
 
 namespace RFFConcrete_Code;
 
-[HarmonyPatch(typeof(GenLeaving), "DoLeavingsFor", typeof(TerrainDef), typeof(IntVec3), typeof(Map))]
+[HarmonyPatch(typeof(GenLeaving), nameof(GenLeaving.DoLeavingsFor), typeof(TerrainDef), typeof(IntVec3), typeof(Map))]
 public static class GenLeaving_DoLeavingsFor_Floors
 {
     public static bool Prefix(TerrainDef terrain, IntVec3 cell, Map map)

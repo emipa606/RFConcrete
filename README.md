@@ -1,4 +1,4 @@
-# RFConcrete
+# [[RF] Concrete (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2012397587)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -9,14 +9,12 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1539310322
 - Fixed cover-values of embrasures, set to 70% instead of 95%
 - Fixed cost for brick-embrasure, was set to 0 for some reason
 - Added russian translation, thank you Awiss
-- Added support for using sand from https://steamcommunity.com/sharedfiles/filedetails/?id=1833163132]Ceramics
-- User amphorosxlii also created a patch:  https://steamcommunity.com/sharedfiles/filedetails/?id=2709527831] RF Concrete X VFE Architect Compatibility
+- Added support for using sand from [Ceramics](https://steamcommunity.com/sharedfiles/filedetails/?id=1833163132)
+- User amphorosxlii also created a patch: [ RF Concrete X VFE Architect Compatibility]( https://steamcommunity.com/sharedfiles/filedetails/?id=2709527831)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 **This mod adds concrete to the game. Originally designed as an add-on to "Fertile Fields," it can now be used independently, though without "Fertile Fields," your options for obtaining sand and crushed rocks will be a bit more limited.
 
@@ -34,7 +32,7 @@ Steel-reinforced walls require "Machining" to have been researched. (I realize t
 
 - Rainbeau Flambe (dburgdorf)**
 
-# **[u]Compatibility:[/u]**
+# **<ins>Compatibility:</ins>**
 
 
 This mod should be compatible with most any other mods, except perhaps for other mods which add concrete. But why would you be trying to use two different mods to add concrete? Just pick one or the other! 
@@ -49,12 +47,12 @@ And if you're using my "Advanced Bridges" mod, you'll find that construction of 
 
 If this mod is used together with either "Glass+Lights" or "Dub's Skylights," then creation of the glass from those mods will require the sand from this mod.
 
-# **[u]License:[/u]**
+# **<ins>License:</ins>**
 
 
 If you're a modpack maker and want to include this mod in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
 
-The Ludeon forums discussion thread for my mods can be found https://ludeon.com/forums/index.php?topic=46165]here.
+The Ludeon forums discussion thread for my mods can be found [here](https://ludeon.com/forums/index.php?topic=46165).
 
 If you have any (helpful) suggestions for improvement, please let me know!
 
@@ -65,13 +63,12 @@ If you have any (helpful) suggestions for improvement, please let me know!
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2012397587]![Image](https://img.shields.io/github/v/release/emipa606/RFConcrete?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/RFConcrete?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2012397587) | tags: embrasure

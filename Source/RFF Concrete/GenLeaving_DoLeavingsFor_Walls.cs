@@ -7,7 +7,7 @@ using Verse;
 
 namespace RFFConcrete_Code;
 
-[HarmonyPatch(typeof(GenLeaving), "DoLeavingsFor", typeof(Thing), typeof(Map), typeof(DestroyMode),
+[HarmonyPatch(typeof(GenLeaving), nameof(GenLeaving.DoLeavingsFor), typeof(Thing), typeof(Map), typeof(DestroyMode),
     typeof(CellRect), typeof(Predicate<IntVec3>), typeof(List<Thing>))]
 public static class GenLeaving_DoLeavingsFor_Walls
 {
@@ -114,7 +114,7 @@ public static class GenLeaving_DoLeavingsFor_Walls
                     }
 
                     var buildingResourcesLeaveCalculator =
-                        GetBuildingResourcesLeaveCalculator(diedThing, mode)(thingCountClass.count);
+                        getBuildingResourcesLeaveCalculator(diedThing, mode)(thingCountClass.count);
                     if (buildingResourcesLeaveCalculator <= 0)
                     {
                         continue;
@@ -132,7 +132,7 @@ public static class GenLeaving_DoLeavingsFor_Walls
         return true;
     }
 
-    private static Func<int, int> GetBuildingResourcesLeaveCalculator(Thing destroyedThing, DestroyMode mode)
+    private static Func<int, int> getBuildingResourcesLeaveCalculator(Thing destroyedThing, DestroyMode mode)
     {
         if (!GenLeaving.CanBuildingLeaveResources(destroyedThing, mode))
         {
@@ -147,9 +147,6 @@ public static class GenLeaving_DoLeavingsFor_Walls
         switch (mode)
         {
             case DestroyMode.Vanish:
-            {
-                return _ => 0;
-            }
             case DestroyMode.WillReplace:
             {
                 return _ => 0;

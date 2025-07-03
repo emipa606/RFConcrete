@@ -4,7 +4,7 @@ using Verse;
 
 namespace RFFConcrete_Code;
 
-[HarmonyPatch(typeof(GenConstruct), "BlocksConstruction", null)]
+[HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.BlocksConstruction), null)]
 public static class GenConstruct_BlocksConstruction
 {
     public static bool Prefix(Thing constructible, Thing t, ref bool __result)

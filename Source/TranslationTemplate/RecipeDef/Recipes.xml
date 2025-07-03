@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make any stone blocks -->
+  <Make_StoneBlocksAnyRM.label>make any stone blocks</Make_StoneBlocksAnyRM.label>
+  <!-- EN: Cut rock chunks into usable stone blocks. -->
+  <Make_StoneBlocksAnyRM.description>Cut rock chunks into usable stone blocks.</Make_StoneBlocksAnyRM.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksAnyRM.jobString>Cutting stone blocks from chunk.</Make_StoneBlocksAnyRM.jobString>
+  <!-- EN: make granite blocks -->
+  <Make_StoneBlocksGraniteRM.label>make granite blocks</Make_StoneBlocksGraniteRM.label>
+  <!-- EN: Cuts granite chunks into usable blocks. -->
+  <Make_StoneBlocksGraniteRM.description>Cuts granite chunks into usable blocks.</Make_StoneBlocksGraniteRM.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksGraniteRM.jobString>Cutting stone blocks from chunk.</Make_StoneBlocksGraniteRM.jobString>
+  <!-- EN: make limestone blocks -->
+  <Make_StoneBlocksLimestoneRM.label>make limestone blocks</Make_StoneBlocksLimestoneRM.label>
+  <!-- EN: Cuts limestone chunks into usable blocks. -->
+  <Make_StoneBlocksLimestoneRM.description>Cuts limestone chunks into usable blocks.</Make_StoneBlocksLimestoneRM.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksLimestoneRM.jobString>Cutting stone blocks from chunk.</Make_StoneBlocksLimestoneRM.jobString>
+  <!-- EN: make marble blocks -->
+  <Make_StoneBlocksMarbleRM.label>make marble blocks</Make_StoneBlocksMarbleRM.label>
+  <!-- EN: Cuts marble chunks into usable blocks. -->
+  <Make_StoneBlocksMarbleRM.description>Cuts marble chunks into usable blocks.</Make_StoneBlocksMarbleRM.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksMarbleRM.jobString>Cutting stone blocks from chunk.</Make_StoneBlocksMarbleRM.jobString>
+  <!-- EN: make sandstone blocks -->
+  <Make_StoneBlocksSandstoneRM.label>make sandstone blocks</Make_StoneBlocksSandstoneRM.label>
+  <!-- EN: Cuts sandstone chunks into usable blocks. -->
+  <Make_StoneBlocksSandstoneRM.description>Cuts sandstone chunks into usable blocks.</Make_StoneBlocksSandstoneRM.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksSandstoneRM.jobString>Cutting stone blocks from chunk.</Make_StoneBlocksSandstoneRM.jobString>
+  <!-- EN: make slate blocks -->
+  <Make_StoneBlocksSlateRM.label>make slate blocks</Make_StoneBlocksSlateRM.label>
+  <!-- EN: Cuts slate chunks into usable blocks. -->
+  <Make_StoneBlocksSlateRM.description>Cuts slate chunks into usable blocks.</Make_StoneBlocksSlateRM.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksSlateRM.jobString>Cutting stone blocks from chunk.</Make_StoneBlocksSlateRM.jobString>
+  <!-- EN: make 4 cement (from chunks) -->
+  <MakeCement.label>make 4 cement (from chunks)</MakeCement.label>
+  <!-- EN: Heating limestone to create cement. -->
+  <MakeCement.description>Heating limestone to create cement.</MakeCement.description>
+  <!-- EN: Making cement. -->
+  <MakeCement.jobString>Making cement.</MakeCement.jobString>
+  <!-- EN: make cement (from blocks) -->
+  <MakeCementBlock.label>make cement (from blocks)</MakeCementBlock.label>
+  <!-- EN: Heating limestone to create cement. -->
+  <MakeCementBlock.description>Heating limestone to create cement.</MakeCementBlock.description>
+  <!-- EN: Making cement. -->
+  <MakeCementBlock.jobString>Making cement.</MakeCementBlock.jobString>
+  <!-- EN: make 30 concrete -->
+  <MakeConcrete.label>make 30 concrete</MakeConcrete.label>
+  <!-- EN: Mix crushed rock, sand and cement with water to form concrete. -->
+  <MakeConcrete.description>Mix crushed rock, sand and cement with water to form concrete.</MakeConcrete.description>
+  <!-- EN: Mixing cement. -->
+  <MakeConcrete.jobString>Mixing cement.</MakeConcrete.jobString>
+  <!-- EN: make 150 concrete -->
+  <MakeConcrete5.label>make 150 concrete</MakeConcrete5.label>
+  <!-- EN: Mix crushed rock, sand and cement with water to form concrete. -->
+  <MakeConcrete5.description>Mix crushed rock, sand and cement with water to form concrete.</MakeConcrete5.description>
+  <!-- EN: Mixing cement. -->
+  <MakeConcrete5.jobString>Mixing cement.</MakeConcrete5.jobString>
+  <!-- EN: make 150 concrete -->
+  <MakeConcrete5RM.label>make 150 concrete</MakeConcrete5RM.label>
+  <!-- EN: Mix crushed rock, sand and cement with water to form concrete. -->
+  <MakeConcrete5RM.description>Mix crushed rock, sand and cement with water to form concrete.</MakeConcrete5RM.description>
+  <!-- EN: Mixing cement. -->
+  <MakeConcrete5RM.jobString>Mixing cement.</MakeConcrete5RM.jobString>
+  <!-- EN: make 75 concrete blocks -->
+  <MakeConcreteBlocks.label>make 75 concrete blocks</MakeConcreteBlocks.label>
+  <!-- EN: Creating concrete "cinder" blocks. -->
+  <MakeConcreteBlocks.description>Creating concrete "cinder" blocks.</MakeConcreteBlocks.description>
+  <!-- EN: Making concrete blocks. -->
+  <MakeConcreteBlocks.jobString>Making concrete blocks.</MakeConcreteBlocks.jobString>
+  <!-- EN: make 75 concrete blocks -->
+  <MakeConcreteBlocksRM.label>make 75 concrete blocks</MakeConcreteBlocksRM.label>
+  <!-- EN: Creating concrete "cinder" blocks. -->
+  <MakeConcreteBlocksRM.description>Creating concrete "cinder" blocks.</MakeConcreteBlocksRM.description>
+  <!-- EN: Making concrete blocks. -->
+  <MakeConcreteBlocksRM.jobString>Making concrete blocks.</MakeConcreteBlocksRM.jobString>
+  <!-- EN: make 30 concrete (single step) -->
+  <MakeConcreteOneStep.label>make 30 concrete (single step)</MakeConcreteOneStep.label>
+  <!-- EN: Break up stone chunks into crushed rock and sand, then combine them with cement and water to form concrete. (It requires a bit more total work than if the crushed rocks and sand are made separately and then combined with concrete, but it's only a single step.) -->
+  <MakeConcreteOneStep.description>Break up stone chunks into crushed rock and sand, then combine them with cement and water to form concrete. (It requires a bit more total work than if the crushed rocks and sand are made separately and then combined with concrete, but it's only a single step.)</MakeConcreteOneStep.description>
+  <!-- EN: Mixing cement. -->
+  <MakeConcreteOneStep.jobString>Mixing cement.</MakeConcreteOneStep.jobString>
+  <!-- EN: make 30 concrete (single step) -->
+  <MakeConcreteOneStepRM.label>make 30 concrete (single step)</MakeConcreteOneStepRM.label>
+  <!-- EN: Break up stone chunks into crushed rock and sand, then combine them with cement and water to form concrete. (It requires a bit more total work than if the crushed rocks and sand are made separately and then combined with concrete, but it's only a single step.) -->
+  <MakeConcreteOneStepRM.description>Break up stone chunks into crushed rock and sand, then combine them with cement and water to form concrete. (It requires a bit more total work than if the crushed rocks and sand are made separately and then combined with concrete, but it's only a single step.)</MakeConcreteOneStepRM.description>
+  <!-- EN: Mixing cement. -->
+  <MakeConcreteOneStepRM.jobString>Mixing cement.</MakeConcreteOneStepRM.jobString>
+  <!-- EN: make 30 concrete -->
+  <MakeConcreteRM.label>make 30 concrete</MakeConcreteRM.label>
+  <!-- EN: Mix crushed rock, sand and cement with water to form concrete. -->
+  <MakeConcreteRM.description>Mix crushed rock, sand and cement with water to form concrete.</MakeConcreteRM.description>
+  <!-- EN: Mixing cement. -->
+  <MakeConcreteRM.jobString>Mixing cement.</MakeConcreteRM.jobString>
+  <!-- EN: make 2 crushed rocks -->
+  <MakeCrushedRocks.label>make 2 crushed rocks</MakeCrushedRocks.label>
+  <!-- EN: Break stone chunks into crushed rocks. -->
+  <MakeCrushedRocks.description>Break stone chunks into crushed rocks.</MakeCrushedRocks.description>
+  <!-- EN: Breaking up stone chunks. -->
+  <MakeCrushedRocks.jobString>Breaking up stone chunks.</MakeCrushedRocks.jobString>
+  <!-- EN: make 10 crushed rocks -->
+  <MakeCrushedRocks5.label>make 10 crushed rocks</MakeCrushedRocks5.label>
+  <!-- EN: Break stone chunks into crushed rocks. -->
+  <MakeCrushedRocks5.description>Break stone chunks into crushed rocks.</MakeCrushedRocks5.description>
+  <!-- EN: Breaking up stone chunks. -->
+  <MakeCrushedRocks5.jobString>Breaking up stone chunks.</MakeCrushedRocks5.jobString>
+  <!-- EN: make crushed rocks (from blocks) -->
+  <MakeCrushedRocksBlock.label>make crushed rocks (from blocks)</MakeCrushedRocksBlock.label>
+  <!-- EN: Break stone blocks into crushed rocks. -->
+  <MakeCrushedRocksBlock.description>Break stone blocks into crushed rocks.</MakeCrushedRocksBlock.description>
+  <!-- EN: Breaking up stone blocks. -->
+  <MakeCrushedRocksBlock.jobString>Breaking up stone blocks.</MakeCrushedRocksBlock.jobString>
+  <!-- EN: make 2 crushed rocks -->
+  <MakeCrushedRocksSlow.label>make 2 crushed rocks</MakeCrushedRocksSlow.label>
+  <!-- EN: Break stone chunks into crushed rocks. -->
+  <MakeCrushedRocksSlow.description>Break stone chunks into crushed rocks.</MakeCrushedRocksSlow.description>
+  <!-- EN: Breaking up stone chunks. -->
+  <MakeCrushedRocksSlow.jobString>Breaking up stone chunks.</MakeCrushedRocksSlow.jobString>
+  <!-- EN: make crushed rocks (from blocks) -->
+  <MakeCrushedRocksSlowBlock.label>make crushed rocks (from blocks)</MakeCrushedRocksSlowBlock.label>
+  <!-- EN: Break stone blocks into crushed rocks. -->
+  <MakeCrushedRocksSlowBlock.description>Break stone blocks into crushed rocks.</MakeCrushedRocksSlowBlock.description>
+  <!-- EN: Breaking up stone blocks. -->
+  <MakeCrushedRocksSlowBlock.jobString>Breaking up stone blocks.</MakeCrushedRocksSlowBlock.jobString>
+  <!-- EN: make sand -->
+  <MakeSand.label>make sand</MakeSand.label>
+  <!-- EN: Further break up crushed rocks to create sand. -->
+  <MakeSand.description>Further break up crushed rocks to create sand.</MakeSand.description>
+  <!-- EN: Making sand. -->
+  <MakeSand.jobString>Making sand.</MakeSand.jobString>
+  <!-- EN: make 5 sand -->
+  <MakeSand5.label>make 5 sand</MakeSand5.label>
+  <!-- EN: Further break up crushed rocks to create sand. -->
+  <MakeSand5.description>Further break up crushed rocks to create sand.</MakeSand5.description>
+  <!-- EN: Making sand. -->
+  <MakeSand5.jobString>Making sand.</MakeSand5.jobString>
+  <!-- EN: make sand -->
+  <MakeSandSlow.label>make sand</MakeSandSlow.label>
+  <!-- EN: Further break up crushed rocks to create sand. -->
+  <MakeSandSlow.description>Further break up crushed rocks to create sand.</MakeSandSlow.description>
+  <!-- EN: Making sand. -->
+  <MakeSandSlow.jobString>Making sand.</MakeSandSlow.jobString>
+</LanguageData>

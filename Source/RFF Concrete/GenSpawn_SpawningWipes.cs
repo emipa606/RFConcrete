@@ -3,7 +3,7 @@ using Verse;
 
 namespace RFFConcrete_Code;
 
-[HarmonyPatch(typeof(GenSpawn), "SpawningWipes", null)]
+[HarmonyPatch(typeof(GenSpawn), nameof(GenSpawn.SpawningWipes), null)]
 public static class GenSpawn_SpawningWipes
 {
     public static bool Prefix(BuildableDef newEntDef, BuildableDef oldEntDef, ref bool __result)
@@ -24,7 +24,7 @@ public static class GenSpawn_SpawningWipes
             return true;
         }
 
-        if (thingDef2?.building == null || !thingDef2.building.canPlaceOverWall)
+        if (thingDef2?.building is not { canPlaceOverWall: true })
         {
             return true;
         }

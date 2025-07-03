@@ -4,7 +4,7 @@ using Verse;
 
 namespace RFFConcrete_Code;
 
-[HarmonyPatch(typeof(GenConstruct), "CanPlaceBlueprintOver", null)]
+[HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.CanPlaceBlueprintOver), null)]
 public static class GenConstruct_CanPlaceBlueprintOver
 {
     public static bool Prefix(BuildableDef newDef, ThingDef oldDef, ref bool __result)

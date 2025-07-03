@@ -2,5 +2,15 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-07-03T21:00:43.5568158+02:00",
+  "SocialImageSet": true,
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 12953.0,
+  "LinesOfXML": 55913.0,
+  "SearchTags": [
+    "embrasure"
+  ]
 }

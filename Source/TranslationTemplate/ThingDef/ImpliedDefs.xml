@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brick embrasure (blueprint) -->
+  <Blueprint_BrickEmbrasure.label>brick embrasure (blueprint)</Blueprint_BrickEmbrasure.label>
+  <!-- EN: embrasure (blueprint) -->
+  <Blueprint_Embrasure.label>embrasure (blueprint)</Blueprint_Embrasure.label>
+  <!-- EN: rock mill (blueprint) -->
+  <Blueprint_Install_RockMill.label>rock mill (blueprint)</Blueprint_Install_RockMill.label>
+  <!-- EN: steel-reinforced concrete autodoor (blueprint) -->
+  <Blueprint_RFFConcreteAutodoor.label>steel-reinforced concrete autodoor (blueprint)</Blueprint_RFFConcreteAutodoor.label>
+  <!-- EN: steel-reinforced concrete door (blueprint) -->
+  <Blueprint_RFFConcreteDoor.label>steel-reinforced concrete door (blueprint)</Blueprint_RFFConcreteDoor.label>
+  <!-- EN: steel-reinforced concrete embrasure (blueprint) -->
+  <Blueprint_RFFConcreteEmbrasure.label>steel-reinforced concrete embrasure (blueprint)</Blueprint_RFFConcreteEmbrasure.label>
+  <!-- EN: poured concrete wall (blueprint) -->
+  <Blueprint_RFFConcreteWall.label>poured concrete wall (blueprint)</Blueprint_RFFConcreteWall.label>
+  <!-- EN: plasteel-reinforced concrete autodoor (blueprint) -->
+  <Blueprint_RFFPlasticreteAutodoor.label>plasteel-reinforced concrete autodoor (blueprint)</Blueprint_RFFPlasticreteAutodoor.label>
+  <!-- EN: plasteel-reinforced concrete door (blueprint) -->
+  <Blueprint_RFFPlasticreteDoor.label>plasteel-reinforced concrete door (blueprint)</Blueprint_RFFPlasticreteDoor.label>
+  <!-- EN: plasteel-reinforced concrete embrasure (blueprint) -->
+  <Blueprint_RFFPlasticreteEmbrasure.label>plasteel-reinforced concrete embrasure (blueprint)</Blueprint_RFFPlasticreteEmbrasure.label>
+  <!-- EN: plasteel-reinforced concrete wall (blueprint) -->
+  <Blueprint_RFFPlasticreteWall.label>plasteel-reinforced concrete wall (blueprint)</Blueprint_RFFPlasticreteWall.label>
+  <!-- EN: steel-reinforced concrete wall (blueprint) -->
+  <Blueprint_RFFReinforcedConcreteWall.label>steel-reinforced concrete wall (blueprint)</Blueprint_RFFReinforcedConcreteWall.label>
+  <!-- EN: rock mill (blueprint) -->
+  <Blueprint_RockMill.label>rock mill (blueprint)</Blueprint_RockMill.label>
+  <!-- EN: brick embrasure (building) -->
+  <Frame_BrickEmbrasure.label>brick embrasure (building)</Frame_BrickEmbrasure.label>
+  <!-- EN: A brick wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.) -->
+  <Frame_BrickEmbrasure.description>A brick wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</Frame_BrickEmbrasure.description>
+  <!-- EN: embrasure (building) -->
+  <Frame_Embrasure.label>embrasure (building)</Frame_Embrasure.label>
+  <!-- EN: An impassable wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.) -->
+  <Frame_Embrasure.description>An impassable wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</Frame_Embrasure.description>
+  <!-- EN: steel-reinforced concrete autodoor (building) -->
+  <Frame_RFFConcreteAutodoor.label>steel-reinforced concrete autodoor (building)</Frame_RFFConcreteAutodoor.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
+  <Frame_RFFConcreteAutodoor.description>Divides rooms. Powered operation allows people to move through the door without slowing down.</Frame_RFFConcreteAutodoor.description>
+  <!-- EN: steel-reinforced concrete door (building) -->
+  <Frame_RFFConcreteDoor.label>steel-reinforced concrete door (building)</Frame_RFFConcreteDoor.label>
+  <!-- EN: Divides rooms. Must be manually opened and closed, which slows people down. -->
+  <Frame_RFFConcreteDoor.description>Divides rooms. Must be manually opened and closed, which slows people down.</Frame_RFFConcreteDoor.description>
+  <!-- EN: steel-reinforced concrete embrasure (building) -->
+  <Frame_RFFConcreteEmbrasure.label>steel-reinforced concrete embrasure (building)</Frame_RFFConcreteEmbrasure.label>
+  <!-- EN: A bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.) -->
+  <Frame_RFFConcreteEmbrasure.description>A bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</Frame_RFFConcreteEmbrasure.description>
+  <!-- EN: poured concrete wall (building) -->
+  <Frame_RFFConcreteWall.label>poured concrete wall (building)</Frame_RFFConcreteWall.label>
+  <!-- EN: A concrete wall, stronger than standard stone walls. -->
+  <Frame_RFFConcreteWall.description>A concrete wall, stronger than standard stone walls.</Frame_RFFConcreteWall.description>
+  <!-- EN: plasteel-reinforced concrete autodoor (building) -->
+  <Frame_RFFPlasticreteAutodoor.label>plasteel-reinforced concrete autodoor (building)</Frame_RFFPlasticreteAutodoor.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
+  <Frame_RFFPlasticreteAutodoor.description>Divides rooms. Powered operation allows people to move through the door without slowing down.</Frame_RFFPlasticreteAutodoor.description>
+  <!-- EN: plasteel-reinforced concrete door (building) -->
+  <Frame_RFFPlasticreteDoor.label>plasteel-reinforced concrete door (building)</Frame_RFFPlasticreteDoor.label>
+  <!-- EN: Divides rooms. Must be manually opened and closed, which slows people down. -->
+  <Frame_RFFPlasticreteDoor.description>Divides rooms. Must be manually opened and closed, which slows people down.</Frame_RFFPlasticreteDoor.description>
+  <!-- EN: plasteel-reinforced concrete embrasure (building) -->
+  <Frame_RFFPlasticreteEmbrasure.label>plasteel-reinforced concrete embrasure (building)</Frame_RFFPlasticreteEmbrasure.label>
+  <!-- EN: A plasteel-reinforced concrete bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.) -->
+  <Frame_RFFPlasticreteEmbrasure.description>A plasteel-reinforced concrete bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</Frame_RFFPlasticreteEmbrasure.description>
+  <!-- EN: plasteel-reinforced concrete wall (building) -->
+  <Frame_RFFPlasticreteWall.label>plasteel-reinforced concrete wall (building)</Frame_RFFPlasticreteWall.label>
+  <!-- EN: The ultimate in defensive fortifications, this massive reinforced wall is constructed from layers of concrete, steel and plasteel. -->
+  <Frame_RFFPlasticreteWall.description>The ultimate in defensive fortifications, this massive reinforced wall is constructed from layers of concrete, steel and plasteel.</Frame_RFFPlasticreteWall.description>
+  <!-- EN: steel-reinforced concrete wall (building) -->
+  <Frame_RFFReinforcedConcreteWall.label>steel-reinforced concrete wall (building)</Frame_RFFReinforcedConcreteWall.label>
+  <!-- EN: A reinforced concrete wall. Much stronger than standard concrete or stone walls, it's well suited to use in bunkers and other high-security fortified locations. -->
+  <Frame_RFFReinforcedConcreteWall.description>A reinforced concrete wall. Much stronger than standard concrete or stone walls, it's well suited to use in bunkers and other high-security fortified locations.</Frame_RFFReinforcedConcreteWall.description>
+  <!-- EN: rock mill (building) -->
+  <Frame_RockMill.label>rock mill (building)</Frame_RockMill.label>
+  <!-- EN: An electrically-powered mill for crushing and mixing rocks, sand and dirt. -->
+  <Frame_RockMill.description>An electrically-powered mill for crushing and mixing rocks, sand and dirt.</Frame_RockMill.description>
+</LanguageData>

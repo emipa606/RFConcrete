@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="RFC_BenchBase" ParentName="BenchBase" Abstract="True">
+    <drawerType>MapMeshAndRealTime</drawerType>
+  </ThingDef>
+  <ThingDef ParentName="RFC_BenchBase">
+    <defName>RockMill</defName>
+    <label>rock mill</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>An electrically-powered mill for crushing and mixing rocks, sand and dirt.</description>
+    <graphicData>
+      <texPath>RockMill/TableRockMill</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2500</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-3</Cleanliness>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <ThingDef ParentName="DoorBase" Name="RFC_DoorBase" Abstract="True">
+    <statBases>
+      <MaxHitPoints>680</MaxHitPoints>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <stuffCategories Inherit="False" />
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="RFC_DoorBase">
+    <defName>RFFConcreteDoor</defName>
+    <label>steel-reinforced concrete door</label>
+    <description>Divides rooms. Must be manually opened and closed, which slows people down.</description>
+    <statBases>
+      <WorkToBuild>3600</WorkToBuild>
+      <DoorOpenSpeed>0.40</DoorOpenSpeed>
+    </statBases>
+    <graphicData>
+      <texPath>RC_Door_Mover</texPath>
+    </graphicData>
+    <uiIconPath>RC_Door_Icon</uiIconPath>
+    <costList>
+      <RFFConcrete>15</RFFConcrete>
+      <Steel>5</Steel>
+    </costList>
+    <designationHotKey>Misc1</designationHotKey>
+    <researchPrerequisites>
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="RFC_DoorBase">
+    <defName>RFFConcreteAutodoor</defName>
+    <label>steel-reinforced concrete autodoor</label>
+    <description>Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
+    <statBases>
+      <WorkToBuild>4800</WorkToBuild>
+      <DoorOpenSpeed>0.40</DoorOpenSpeed>
+    </statBases>
+    <graphicData>
+      <texPath>RC_Autodoor_Mover</texPath>
+    </graphicData>
+    <uiIconPath>RC_Autodoor_Icon</uiIconPath>
+    <costList>
+      <RFFConcrete>15</RFFConcrete>
+      <Steel>45</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>Autodoors</li>
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="RFC_DoorBase">
+    <defName>RFFPlasticreteDoor</defName>
+    <label>plasteel-reinforced concrete door</label>
+    <description>Divides rooms. Must be manually opened and closed, which slows people down.</description>
+    <statBases>
+      <MaxHitPoints>1430</MaxHitPoints>
+      <WorkToBuild>7200</WorkToBuild>
+      <DoorOpenSpeed>0.40</DoorOpenSpeed>
+    </statBases>
+    <graphicData>
+      <texPath>PC_Door_Mover</texPath>
+    </graphicData>
+    <uiIconPath>PC_Door_Icon</uiIconPath>
+    <costList>
+      <RFFConcrete>18</RFFConcrete>
+      <Steel>7</Steel>
+      <Plasteel>5</Plasteel>
+    </costList>
+    <designationHotKey>Misc1</designationHotKey>
+    <researchPrerequisites>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="RFC_DoorBase">
+    <defName>RFFPlasticreteAutodoor</defName>
+    <label>plasteel-reinforced concrete autodoor</label>
+    <description>Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
+    <statBases>
+      <MaxHitPoints>1430</MaxHitPoints>
+      <WorkToBuild>9600</WorkToBuild>
+      <DoorOpenSpeed>0.40</DoorOpenSpeed>
+    </statBases>
+    <graphicData>
+      <texPath>PC_Autodoor_Mover</texPath>
+    </graphicData>
+    <uiIconPath>PC_Autodoor_Icon</uiIconPath>
+    <costList>
+      <RFFConcrete>18</RFFConcrete>
+      <Steel>47</Steel>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>Autodoors</li>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="Wall" Name="RFC_WallBase" Abstract="True">
+    <saveCompressible>false</saveCompressible>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="False" />
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <statBases>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <costStuffCount Inherit="False" />
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="RFC_WallBase" Name="RFC_ConcreteWall">
+    <defName>RFFConcreteWall</defName>
+    <label>poured concrete wall</label>
+    <description>A concrete wall, stronger than standard stone walls.</description>
+    <graphicData>
+      <texPath>RFFWalls/Wall_Atlas_Concrete</texPath>
+    </graphicData>
+    <uiIconPath>ConcreteWall</uiIconPath>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+    </statBases>
+    <costList>
+      <RFFConcrete>5</RFFConcrete>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="RFC_WallBase" Name="RFC_ReinforcedConcreteWall">
+    <defName>RFFReinforcedConcreteWall</defName>
+    <label>steel-reinforced concrete wall</label>
+    <description>A reinforced concrete wall. Much stronger than standard concrete or stone walls, it's well suited to use in bunkers and other high-security fortified locations.</description>
+    <graphicData>
+      <texPath>RFFWalls/Wall_Atlas_Concrete</texPath>
+    </graphicData>
+    <uiIconPath>ConcreteWall</uiIconPath>
+    <statBases>
+      <MaxHitPoints>950</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+    </statBases>
+    <costList>
+      <RFFConcrete>5</RFFConcrete>
+      <Steel>3</Steel>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="RFC_WallBase" Name="RFC_PlasticreteWall">
+    <defName>RFFPlasticreteWall</defName>
+    <label>plasteel-reinforced concrete wall</label>
+    <description>The ultimate in defensive fortifications, this massive reinforced wall is constructed from layers of concrete, steel and plasteel.</description>
+    <graphicData>
+      <texPath>RFFWalls/Wall_Atlas_Plasticrete</texPath>
+    </graphicData>
+    <uiIconPath>PlasticreteWall</uiIconPath>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+    </statBases>
+    <costList>
+      <RFFConcrete>6</RFFConcrete>
+      <Steel>4</Steel>
+      <Plasteel>4</Plasteel>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="RFC_WallBase" Name="RFC_EmbrasureBase" Abstract="True">
+    <fillPercent>0.7</fillPercent>
+    <designationCategory>Security</designationCategory>
+    <disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
+    <building>
+      <isStuffableAirtight>false</isStuffableAirtight>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RFC_EmbrasureBase" Name="RFC_BasicEmbrasure">
+    <defName>Embrasure</defName>
+    <label>embrasure</label>
+    <description>An impassable wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</description>
+    <graphicData>
+      <texPath>RFFWalls/Embrasure</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+    </graphicData>
+    <uiIconPath>Embrasure</uiIconPath>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costList>
+    </costList>
+    <costStuffCount>6</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+  <ThingDef ParentName="RFC_EmbrasureBase" Name="RFC_BrickEmbrasure">
+    <defName>BrickEmbrasure</defName>
+    <label>brick embrasure</label>
+    <description>A brick wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</description>
+    <graphicData>
+      <texPath>RFFWalls/Wall_Atlas_Brick_Embrasure</texPath>
+    </graphicData>
+    <uiIconPath>BrickEmbrasure</uiIconPath>
+    <statBases>
+      <MaxHitPoints>390</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <costList>
+      <RFFConcrete>2</RFFConcrete>
+      <RFFBlocksConcrete>6</RFFBlocksConcrete>
+    </costList>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="RFC_EmbrasureBase" Name="RFC_ConcreteEmbrasure">
+    <defName>RFFConcreteEmbrasure</defName>
+    <label>steel-reinforced concrete embrasure</label>
+    <description>A bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</description>
+    <graphicData>
+      <texPath>RFFWalls/Wall_Atlas_Embrasure</texPath>
+    </graphicData>
+    <uiIconPath>ConcreteEmbrasure</uiIconPath>
+    <statBases>
+      <MaxHitPoints>810</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+    </statBases>
+    <costList>
+      <RFFConcrete>6</RFFConcrete>
+      <Steel>4</Steel>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="RFC_EmbrasureBase" Name="RFC_PlasticreteEmbrasure">
+    <defName>RFFPlasticreteEmbrasure</defName>
+    <label>plasteel-reinforced concrete embrasure</label>
+    <description>A plasteel-reinforced concrete bunker wall with openings to allow warlike pawns to shoot at each other. (Also acts as a permanently-open vent, equalizing temperatures on both sides of the wall.)</description>
+    <graphicData>
+      <texPath>RFFWalls/Wall_Atlas_Embrasure_Plasticrete</texPath>
+    </graphicData>
+    <uiIconPath>PlasticreteEmbrasure</uiIconPath>
+    <statBases>
+      <MaxHitPoints>1700</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+    </statBases>
+    <costList>
+      <RFFConcrete>7</RFFConcrete>
+      <Steel>5</Steel>
+      <Plasteel>4</Plasteel>
+    </costList>
+    <researchPrerequisites>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

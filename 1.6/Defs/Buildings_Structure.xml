@@ -204,6 +204,9 @@
     <costStuffCount Inherit="False" />
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <tradeability>None</tradeability>
+    <building>
+      <isStuffableAirtight>false</isStuffableAirtight>
+    </building>
   </ThingDef>
   <ThingDef ParentName="RFC_WallBase" Name="RFC_ConcreteWall">
     <defName>RFFConcreteWall</defName>

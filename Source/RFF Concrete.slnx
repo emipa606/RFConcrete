@@ -3,4 +3,21 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="RFF Concrete/RFF Concrete.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Patches/">
+    <File Path="../1.6/Patches/Ceramics.xml" />
+    <File Path="../1.6/Patches/Patches.xml" />
+    <File Path="../1.6/Patches/PatchesTraderKinds.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/">
+    <File Path="../1.6/Defs/Buildings_Structure.xml" />
+    <File Path="../1.6/Defs/Items_Resources.xml" />
+    <File Path="../1.6/Defs/Recipes.xml" />
+    <File Path="../1.6/Defs/WorkGivers.xml" />
+  </Folder>
 </Solution>
